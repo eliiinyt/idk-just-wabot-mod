@@ -1,6 +1,6 @@
-global.owner = ['6281515860089', '6281334177340'] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
+global.owner = ['593997229476', '16605985357'] // Put your number here
+global.mods = ['593997229476'] // Want some help?
+global.prems = ['593997229476','16605985357'] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -20,10 +20,10 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = 'I hope you\'re fine'
-global.author = 'Nurutomo'
+global.packname = 'XD'
+global.author = 'ELIIIN-bot'
 
-global.multiplier = 69 // The higher, The harder levelup
+global.multiplier = '99' // The higher, The harder levelup
 
 let fs = require('fs')
 let chalk = require('chalk')
@@ -33,4 +33,13 @@ fs.watchFile(file, () => {
   console.log(chalk.redBright("Update 'config.js'"))
   delete require.cache[file]
   require(file)
+  
+    "prefix": "#",
+    "uaOverride": "WhatsApp/2.2037.6 Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36",
+    "token": "api-key",
+    "nao": "api-key",
+    "vhtear": "api-key",
+    "melodic": "administrator",
+    "tobz": "BotWeA"
+}
 })
