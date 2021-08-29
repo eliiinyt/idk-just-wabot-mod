@@ -34,4 +34,4 @@ fs.watchFile(file, () => {
   delete require.cache[file]
   require(file)
   
-    "prefix", "#"
+ }
